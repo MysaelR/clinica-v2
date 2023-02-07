@@ -1,5 +1,16 @@
 {
     "translation": {
+        "Pages": {
+            "Home": {
+
+            },
+            "Medicine":{
+
+            }
+        },
+        "Components":{
+            
+        },
         "Test": "Italiano",
         "Learn" : "I18N dell'apprendimento"
     }

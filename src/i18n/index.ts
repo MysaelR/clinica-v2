@@ -1,22 +1,22 @@
 import i18n  from "i18next";
 import { initReactI18next } from "react-i18next";
-import PT from './locales/pt/pt-br.json';
+
+import DE from './locales/de/de-de.json';
 import EN from './locales/en/en-us.json';
 import ES from './locales/es/es-es.json';
-import IT from './locales/it/it-it.json';
 import FR from './locales/fr/fr-fr.json';
-import DE from './locales/de/de-de.json';
-
+import IT from './locales/it/it-it.json';
+import PT from './locales/pt/pt-br.json';
 
 // let translate: i18n;
 
 export const resources = {
-    'pt-br': PT,
-    'en-en': EN,
-    'es-es': ES,
-    'it-it': IT,
-    'fr-fr': FR,
-    'de-de': DE
+    'pt-BR': PT,
+    'en': EN,
+    'es': ES,
+    'it': IT,
+    'fr': FR,
+    'de': DE
 }
 
 i18n
@@ -25,7 +25,7 @@ i18n
         resources,
         lng: navigator.language,
         interpolation: {
-            
+            escapeValue: false
         }
     })
 

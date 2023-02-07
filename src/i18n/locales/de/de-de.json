@@ -1,5 +1,37 @@
 {
     "translation": {
+        "Pages": {
+            "Home": {
+
+            },
+            "Medicine":{
+
+            }
+        },
+        "Components":{
+            "MedicineView":{
+                "TimeToExpiration": "",
+                "RemainingQuantity": "",
+                "Batch": "",
+                "Days": "",
+                "Buttons":{
+                    "ChangeData": "",
+                    "GetMedicine": "",
+                    "Delete": "",
+                    "Cancel": "",
+                    "Withdraw": ""
+                },
+                "Modal":{
+                    "Delete": {
+                        "Text": ""
+                    },
+                    "Withdraw":{
+                        "": ""
+                    }
+                }
+
+            }
+        },
         "Test": "Alemão",
         "Learn" : "I18N Lernen"
     }
