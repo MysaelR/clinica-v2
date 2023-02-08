@@ -7,9 +7,32 @@
             "Medicine":{
 
             }
-        },
-        "Components":{
-            
+        }, "Components":{
+            "MedicineView":{
+                "Medicine": "medicamento",
+                "TimeToExpiration": "tempo para vencer",
+                "RemainingQuantity": "quantidade restante",
+                "Batch": "lote",
+                "Days": "dias",
+                "Buttons":{
+                    "ChangeData": "alterar dados",
+                    "GetMedicine": "retirar medicamento",
+                    "Delete": "remover",
+                    "Cancel": "cancelar",
+                    "Withdraw": "retirar"
+                },
+                "Modal":{
+                    "Delete": {
+                        "Text": "Tem certeza que deseja remover da lista de medicamentos?"
+                    },
+                    "Withdraw":{
+                        "AvailableQuantity": "Quantidade disponivel",
+                        "Text": "Digite a quantidade que deseja retirar",
+                        "Quantity": "Quantidade"
+                    }
+                }
+
+            }
         },
         "Test": "Português",
         "Learn" : "Aprendendo I18N"

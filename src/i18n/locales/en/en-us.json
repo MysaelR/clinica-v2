@@ -9,7 +9,31 @@
             }
         },
         "Components":{
-            
+            "MedicineView":{
+                "Medicine": "medicine",
+                "TimeToExpiration": "time to expiration",
+                "RemainingQuantity": "ramaining quantity",
+                "Batch": "batch",
+                "Days": "days",
+                "Buttons":{
+                    "ChangeData": "change data",
+                    "GetMedicine": "get medicine",
+                    "Delete": "delete",
+                    "Cancel": "cancel",
+                    "Withdraw": "withdraw"
+                },
+                "Modal":{
+                    "Delete": {
+                        "Text": "Are you sure you want to remove it from the medication list?"
+                    },
+                    "Withdraw":{
+                        "AvailableQuantity": "available quantity",
+                        "Text": "Enter the amount you wish to withdraw",
+                        "Quantity": "quantity"
+                    }
+                }
+
+            }
         },
         "Test": "Inglês",
         "Learn" : "Learn I18N"
