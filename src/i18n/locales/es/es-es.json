@@ -9,7 +9,31 @@
             }
         },
         "Components":{
-            
+            "MedicineView":{
+                "Medicine": "medicamento",
+                "TimeToExpiration": "tiempo hasta el vencimiento",
+                "RemainingQuantity": "cantidad restante",
+                "Batch": "lote",
+                "Days": "días",
+                "Buttons":{
+                    "ChangeData": "cambiar datos",
+                    "GetMedicine": "quitar la medicina",
+                    "Delete": "borrar",
+                    "Cancel": "cancelar",
+                    "Withdraw": "retirar"
+                },
+                "Modal":{
+                    "Delete": {
+                        "Text": "¿Está seguro de que desea eliminarlo de la lista de medicamentos?"
+                    },
+                    "Withdraw":{
+                        "AvailableQuantity": "Cantidad disponible",
+                        "Text": "Ingresa el monto que deseas retirar",
+                        "Quantity": "cantidad"
+                    }
+                }
+
+            }
         },
         "Test": "Espanhol",
         "Learn" : "I18N de aprendizaje"

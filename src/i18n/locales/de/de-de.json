@@ -9,29 +9,29 @@
             }
         },
         "Components":{
-            "MedicineView":{
-                "Medicine": "",
-                "TimeToExpiration": "",
-                "RemainingQuantity": "",
-                "Batch": "",
-                "Days": "",
-                "Buttons":{
-                    "ChangeData": "",
-                    "GetMedicine": "",
-                    "Delete": "",
-                    "Cancel": "",
-                    "Withdraw": ""
+            "MedicineView": {
+                "Medicine": "Medizin",
+                "TimeToExpiration": "Verfallszeit",
+                "RemainingQuantity": "verbleibende Menge",
+                "Batch": "Charge",
+                "Days": "Tage",
+                "Buttons": {
+                    "ChangeData": "Daten ändern",
+                    "GetMedicine": "Medizin holen",
+                    "Delete": "löschen",
+                    "Cancel": "abbrechen",
+                    "Withdraw": "zurückziehen"
                 },
-                "Modal":{
+                "Modal": {
                     "Delete": {
-                        "Text": ""
+                        "Text": "Sind Sie sicher, dass Sie es aus der Liste der Medikamente entfernen möchten?"
                     },
-                    "Withdraw":{
-                        "AvailableQuantity": "",
-                        "Text": ""
+                    "Withdraw": {
+                        "AvailableQuantity": "Verfügbare Menge",
+                        "Text": "Geben Sie den Betrag ein, den Sie abheben möchten",
+                        "Quantity": "Menge"
                     }
                 }
-
             }
         },
         "Test": "Alemão",

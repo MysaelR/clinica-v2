@@ -17,6 +17,7 @@ export const DeleteMedicineModalContainer = styled.div`
 
 export const DeleteMedicineModalText = styled.p`
     color: #fff;
-    font-size: 12px;
+    font-size: 70%;
     font-weight: 700;
+    margin-right: 10px;
 `

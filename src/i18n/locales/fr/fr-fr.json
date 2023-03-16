@@ -9,7 +9,30 @@
             }
         },
         "Components":{
-            
+            "MedicineView": {
+                "Medicine": "médicament",
+                "TimeToExpiration": "temps avant l'expiration",
+                "RemainingQuantity": "quantité restante",
+                "Batch": "lot",
+                "Days": "jours",
+                "Buttons": {
+                    "ChangeData": "modifier les données",
+                    "GetMedicine": "prendre le médicament",
+                    "Delete": "supprimer",
+                    "Cancel": "annuler",
+                    "Withdraw": "retirer"
+                },
+                "Modal": {
+                    "Delete": {
+                        "Text": "Êtes-vous sûr de vouloir le supprimer de la liste des médicaments?"
+                    },
+                    "Withdraw": {
+                        "AvailableQuantity": "Quantité disponible",
+                        "Text": "Entrez le montant que vous souhaitez retirer",
+                        "Quantity": "quantité"
+                    }
+                }
+            }
         },
         "Test": "Francês",
         "Learn" : "I18N d'apprentissage"

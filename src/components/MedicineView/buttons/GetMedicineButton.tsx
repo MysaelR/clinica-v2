@@ -1,15 +1,17 @@
 import * as Styled from './style';
 
 interface Ibutton{
+    buttonName: string,
     action: () => void
 }
 
 
-export const GetMedicineButton: React.FC<Ibutton> = ({action}) => {
+export const GetMedicineButton: React.FC<Ibutton> = ({buttonName ,action}) => {
 
     return(
         <Styled.MedicineButtonContainer type='get' onClick={action}>
-            RETIRAR MEDICAMENTO
+            {buttonName.toUpperCase()}
+            {/* RETIRAR MEDICAMENTO */}
         </Styled.MedicineButtonContainer>
     )
 }

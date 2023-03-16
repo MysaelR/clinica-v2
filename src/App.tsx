@@ -14,7 +14,8 @@ const App: React.FC = () => {
     <div style={{'position': 'relative', 'width': '100%', 'height': '100%'}}>
       <div style={{'position': 'absolute', 'right': '0', 'left': '0', 'marginTop': '20%' , 'margin': 'auto', 'width': '100px'}}>
         {t('Learn')}
-
+        {t('Learn')}
+        {t('Learn')}
       <MedicineView/>  
       </div>
       
